@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Layouts with Flexbox & Grid</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header with navigation -->
+    <header class="site-header">
+        <div class="container">
+            <div class="logo">LayoutMaster</div>
+            
+            <!-- Mobile menu toggle -->
+            <button class="menu-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <!-- Navigation using Flexbox -->
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Responsive Layouts</h1>
+            <p>Mastering Flexbox & CSS Grid</p>
+        </div>
+    </section>
+
+    <!-- Main content area using CSS Grid -->
+    <main class="container main-grid">
+        <!-- Primary content section -->
+        <section class="content">
+            <h2>Modern Layout Techniques</h2>
+            
+            <!-- Feature cards using Flexbox -->
+            <div class="features">
+                <article class="feature-card">
+                    <h3>Flexbox Layout</h3>
+                    <p>One-dimensional layout model for creating flexible and efficient designs.</p>
+                </article>
+                <article class="feature-card">
+                    <h3>CSS Grid</h3>
+                    <p>Powerful two-dimensional system for complex web layouts.</p>
+                </article>
+                <article class="feature-card">
+                    <h3>Responsive Design</h3>
+                    <p>Create layouts that adapt to any screen size.</p>
+                </article>
+            </div>
+            
+            <!-- Gallery using CSS Grid -->
+            <div class="gallery">
+                <div class="gallery-item">
+                    <div class="img-placeholder"></div>
+                    <p>Mobile Layout</p>
+                </div>
+                <div class="gallery-item">
+                    <div class="img-placeholder"></div>
+                    <p>Tablet Layout</p>
+                </div>
+                <div class="gallery-item">
+                    <div class="img-placeholder"></div>
+                    <p>Desktop Layout</p>
+                </div>
+                <div class="gallery-item">
+                    <div class="img-placeholder"></div>
+                    <p>Widescreen Layout</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Sidebar using Flexbox -->
+        <aside class="sidebar">
+            <div class="sidebar-widget">
+                <h3>Upcoming Events</h3>
+                <ul>
+                    <li>CSS Workshop - June 15</li>
+                    <li>Responsive Design Conference - July 22</li>
+                    <li>Web Layout Masterclass - August 5</li>
+                </ul>
+            </div>
+            
+            <div class="sidebar-widget">
+                <h3>Newsletter</h3>
+                <p>Subscribe for layout tips and tricks</p>
+                <form>
+                    <input type="email" placeholder="Your email">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </aside>
+    </main>
+
+    <!-- Footer using Flexbox -->
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <div class="footer-section">
+                <h4>LayoutMaster</h4>
+                <p>Mastering responsive web design with modern CSS techniques.</p>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Tutorials</a></li>
+                    <li><a href="#">Resources</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <ul>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">GitHub</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="copyright">
+            <p>&copy; 2023 LayoutMaster. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
